@@ -2,7 +2,6 @@
 
 - Validate your GKE API is enabled 
 - Your Account service have following permissions with a custom role or search for a role how have these permitions
-
     - compute.instanceGroupManagers.get
     - compute.networks.create
     - compute.networks.delete
@@ -14,7 +13,6 @@
     - container.clusters.create
     - container.clusters.delete
     - container.clusters.get
-    - container.clusters.update
     - container.operations.get
 
 - And the role of iam.seviceAccountUser with the following permissions would be applyed

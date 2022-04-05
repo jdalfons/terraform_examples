@@ -1,18 +1,12 @@
 variable "project" {
   type = string
-  description = "Google Cloud project ID"
+  description = "Google Cloud project name"
 }
 
 variable "machine_type" {
   type = string
   description = "Machine type to use for the general-purpose node pool. See https://cloud.google.com/compute/docs/machine-types"
   default = "e2-small"
-}
-
-variable "node_count" {
-  type = string
-  description = "Number of initial nodes"
-  default = 2
 }
 
 variable "cluster_name" {
